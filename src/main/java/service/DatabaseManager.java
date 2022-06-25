@@ -14,10 +14,10 @@ public class DatabaseManager {
         return instance;
     }
 
-    public String url = "jdbc:mysql://localhost:3306/bdd_test";
-    public String user = "root";
-    public String pass = "";
-    private static String driverName = "com.mysql.jdbc.Driver";
+    public String url = "jdbc:postgresql://localhost:5433/bdd_test";
+    public String user = "astrozeneka";
+    public String pass = "deltaCharlie52";
+    private static String driverName = "org.postgresql.Driver";
 
 
     public Connection con = null;
